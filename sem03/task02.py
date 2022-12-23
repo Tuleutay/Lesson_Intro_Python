@@ -29,9 +29,18 @@ stroka = "OPOPPPPOPOPOPPPOPPOPPPOPOPPPPPPOPO"
 #     if b > max:
 #         max = b
 # print(max)
-find1 = "P"
-while stroka.count(find1) > 0:
-    count = len(find1)
-    find1 += 'P'
 
-print(count)
+# 2 rewenie
+
+# find1 = "P"
+# while stroka.count(find1) > 0:
+#     count = len(find1)
+#     find1 += 'P'
+# print(cout)
+# 3 rewenie
+#
+s = input()
+t = 0
+while "P" * (t + 1) in s:
+    t += 1
+print(t)

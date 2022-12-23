@@ -1,32 +1,32 @@
-#print('Hello World, it is me')
-#value = None
-#print(type(value))
-#a = 123
-#b = 1.23
-#print(type(a))
-#print(type(b))
-#value = 123421
-#print(type(value))
-#s = 'hello world'
-#print(s)
-#print(a, b, s)
-#print(a, ' - ' ,b, ' - ',s)
-#print(f'{a} - {b} - {s}')
-#print('{1} - {2} - {0}'.format(a, b, s))
+# print('Hello World, it is me')
+# value = None
+# print(type(value))
+# a = 123
+# b = 1.23
+# print(type(a))
+# print(type(b))
+# value = 123421
+# print(type(value))
+# s = 'hello world'
+# print(s)
+# print(a, b, s)
+# print(a, ' - ' ,b, ' - ',s)
+# print(f'{a} - {b} - {s}')
+# print('{1} - {2} - {0}'.format(a, b, s))
 
-#f = True
-#print(f)
+# f = True
+# print(f)
 
-#list = ['1', '2', '3']
-#col = ['hello', 1, 2, 4.5, True]
-#print(list)
-#print(col)
+# list = ['1', '2', '3']
+# col = ['hello', 1, 2, 4.5, True]
+# print(list)
+# print(col)
 
-#print('введите число а')
-#a = int(input())
-#print('введите число b')
-#b = int(input())
-#print(a, ' + ' , b, ' = ', a+b)
+# print('введите число а')
+# a = int(input())
+# print('введите число b')
+# b = int(input())
+# print(a, ' + ' , b, ' = ', a+b)
 
 # a = 12
 # b = 5
@@ -41,7 +41,7 @@
 # print(g)
 
 
-#__________________________________________________________________________________________________
+# __________________________________________________________________________________________________
 # Логические опреции
 
 # >, >=, <, <=, ==, !=
@@ -49,26 +49,29 @@
 # Кое-что еще: is, is not, in, not in, gen
 
 
-#a= 1<4 and 5>2             
-#print(a)
-  
-#a= 'qwe'
-#b= 'qwe'
-#print(a==b)
+# a = 1 < 4 and 5 > 2
+# print(a)
 
-#a=[1,2,3]
-#b=[1,2,5]
-#print(a==b)
 
-#print(func<T>(x))
+# a= 'qwe'
+# b= 'qwe'
+# print(a==b)
 
-#f = [1,2,3,4]
-#print(f)
-#print( not 2 in f)
+# a = [1, 2, 3]
+# b = [1, 2, 5]
+# print(a == b)
 
-#is_odd = not f[0] % 2
-#print(is_odd)
-#___________________________________________________________________
+
+# print(func < T > (x))
+
+
+# f = [1,2,3,4]
+# print(f)
+# print( not 2 in f)
+
+# is_odd = not f[0] % 2
+# print(is_odd)
+# ___________________________________________________________________
 
 # Управляющие конструкции
 # if, if-else
@@ -90,7 +93,7 @@
 # else:
 #     print('Привет, ', username)
 
-#___________________________________________________________________
+# ___________________________________________________________________
 # Управляющие конструкции
 # ЦИКЛ while 
 
@@ -108,11 +111,11 @@
 
 # ЦИКЛ for
 
-#for i in 1,2,3,4,5,6:
+# for i in 1,2,3,4,5,6:
 #    print(i**2)
- 
-#list = [1,2,3,10,5]
-#for i in list:
+
+# list = [1,2,3,10,5]
+# for i in list:
 #    print(i)
 
 # r = range(10)
@@ -125,44 +128,44 @@
 # for i in 'qwerty':
 #     print(i)
 
-#text = 'Съешь еще эти жирные сладкие булки'
+# text = 'Съешь еще эти жирные сладкие булки'
 ## 
-#print(len(text))                        # 39
-#print('еще' in text)                    # true
-#print(text.isdigit())                   # false
-#print(text.islower())                   #   true
-#print(text.replace('еще', 'ЕЩЁ'))       #   #
+# print(len(text))                        # 39
+# print('еще' in text)                    # true
+# print(text.isdigit())                   # false
+# print(text.islower())                   #   true
+# print(text.replace('еще', 'ЕЩЁ'))       #   #
 
-#for c in text:
+# for c in text:
 #    print(c)#
 
-#print (text[0])                         # c
-#print(text[len(text)-1])                # k
-#print(text[-5])                         # б
-#print(text[:])                          # print(text)
-#print(text[len(text)-2:])               # ки
-#print(text[6:-18])                      # еще эти жи
-#print(text[0:len(text):6])              # сеиыду
-#print(text[::6])                        # сеиыду
+# print (text[0])                         # c
+# print(text[len(text)-1])                # k
+# print(text[-5])                         # б
+# print(text[:])                          # print(text)
+# print(text[len(text)-2:])               # ки
+# print(text[6:-18])                      # еще эти жи
+# print(text[0:len(text):6])              # сеиыду
+# print(text[::6])                        # сеиыду
 
 
-#_____________________________________________________
-#Списки введение
+# _____________________________________________________
+# Списки введение
 
-#numbers = [1, 2, 3, 4, 5]
-#print(numbers)                          # [1, 2, 3, 4, 5]
-#ran=range(1,6)
-#print(type(ran))
-#numbers = list(ran)
-#print(type(numbers))
+# numbers = [1, 2, 3, 4, 5]
+# print(numbers)                          # [1, 2, 3, 4, 5]
+# ran=range(1,6)
+# print(type(ran))
+# numbers = list(ran)
+# print(type(numbers))
 #
-#numbers[0] = 10
-#print(f'{len(numbers)} len')            # 5 len
-#print(numbers)                          # [10, 2, 3, 4, 5]
-#for i in numbers:
+# numbers[0] = 10
+# print(f'{len(numbers)} len')            # 5 len
+# print(numbers)                          # [10, 2, 3, 4, 5]
+# for i in numbers:
 #    i*=2
 #    print(i)                            #[20, 4, 6, 8, 10]
-#print(numbers)                          # [10, 2, 3, 4, 5]
+# print(numbers)                          # [10, 2, 3, 4, 5]
 
 # colors.append('gray')       # добавить в конец
 # print(colors == ['red', 'green', 'blue', 'gray']) # true
@@ -170,19 +173,14 @@
 
 # ФУНКЦИИ______________________________________________________
 def f(x):
-    if x ==1:
+    if x == 1:
         return 'Целое'
-    elif x==2.3:
+    elif x == 2.3:
         return '23'
     else:
         return
 
-arg=1.3
+
+arg = 1.3
 print(f(arg))
 print(type(f(arg)))
-
-
-
-
-
-

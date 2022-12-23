@@ -21,10 +21,11 @@
 # 21 р. 0 коп.
 
 str = input('Введите строку ')
-count = len(str)
-coast = float(0.6 * count)
-kop = coast - int(coast)
-rub = coast - kop
-# print(f'Cтоимость строки {int(rub)} рублей и {round(kop, 2)*100} копеек')
-# print(f'Cтоимость строки {int(rub)} рублей и {int(kop)*100} копеек')
-print(f'Cтоимость строки {int(rub)} рублей и {round(kop)*100} копеек')
+coast = len(str) * 60
+# coast = float(0.6 * count)
+# kop = coast - int(coast)
+# rub = coast - kop
+# # print(f'Cтоимость строки {int(rub)} рублей и {round(kop, 2)*100} копеек')
+# # print(f'Cтоимость строки {int(rub)} рублей и {int(kop)*100} копеек')
+# print(f'Cтоимость строки {int(rub)} рублей и {round(kop)*100} копеек')
+print(f'{coast // 100} руб {coast % 100} коп')

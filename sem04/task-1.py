@@ -43,3 +43,4 @@ for i in range(1, len(nums)):
         count += 1
 
 print(count)
+print(

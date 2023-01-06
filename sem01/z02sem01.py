@@ -4,18 +4,18 @@
 a = [0] * 5
 for i in range(len(a)):
     i = str(i)
-    print(f'Введите ',i+1, ' элемент массива ')
+    print(f'Введите элемент массива ')
     i = int(i)
     a[i] = int(input())
-print(a)   
+print(a)
 min = a[0]
 max = a[0]
 
 for i in range(len(a)):
-    if (a[i ]< min):
-        min = a[i]   
+    if (a[i] < min):
+        min = a[i]
     if (a[i] > max):
-        max = a[i]        
+        max = a[i]
 min = str(min)
 max = str(max)
 

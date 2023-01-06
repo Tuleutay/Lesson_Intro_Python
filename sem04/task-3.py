@@ -21,4 +21,4 @@ for i in range(len(word) // 2):
 
 print(msg)
 
-print('палиндром' if msg.lower() == msg[::-1].lover())
+print('палиндром' if msg.lower() == msg[::-1].lover()
